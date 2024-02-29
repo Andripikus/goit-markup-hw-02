@@ -47,8 +47,8 @@ li {
 }
 
 .header-menu-link:hover,
-.header-address-link:active,
-.header-address-link:focus {
+.header-menu-link:active,
+.header-menu-link:focus {
   color: #404bbf;
 }
 
@@ -202,7 +202,7 @@ li {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;

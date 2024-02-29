@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: white;
   color: #434455;
 }
@@ -10,20 +10,6 @@ a {
 
 li {
   list-style: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .header {
@@ -61,7 +47,8 @@ li {
 }
 
 .header-menu-link:hover,
-.header-address-link:active {
+.header-address-link:active,
+.header-address-link:focus {
   color: #404bbf;
 }
 
@@ -84,7 +71,8 @@ li {
 }
 
 .header-address-link:hover,
-.header-address-link:active {
+.header-address-link:active,
+.header-address-link:focus {
   color: #404bbf;
 }
 
@@ -95,13 +83,15 @@ li {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .hero-order-btn {
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -110,7 +100,9 @@ li {
 }
 
 .hero-order-btn:hover,
-.hero-order-btn:active {
+.hero-order-btn:active,
+.hero-order-btn:focus {
+  background-color: #404bbf;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.04em;
@@ -118,10 +110,13 @@ li {
 }
 
 .hero-order-btn {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .features {
+}
+
+.features-title {
 }
 
 .features-list {
@@ -147,7 +142,7 @@ li {
 }
 
 .team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -164,6 +159,7 @@ li {
 }
 
 .team-list-item {
+  background-color: #ffffff;
 }
 
 .team-list-image {
@@ -193,7 +189,7 @@ li {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
